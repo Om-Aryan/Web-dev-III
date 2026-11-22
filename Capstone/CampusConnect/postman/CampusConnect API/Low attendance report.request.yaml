@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/reports/low-attendance?threshold=75"
+method: GET
+headers:
+  Authorization: Bearer {{accessToken}}
+order: 8000
